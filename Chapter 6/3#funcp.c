@@ -18,6 +18,7 @@ int square(int n)
     printf("The square is: %d\n", n);
 }
 
+// Call by reference
 int _square(int *n){
         *n = (*n) * (*n);
     printf("The square is: %d\n", *n);
